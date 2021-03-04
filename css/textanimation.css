@@ -1,0 +1,39 @@
+#typewriter{
+	
+		margin: 0;
+
+
+		&:after{
+			content: "|";
+			animation: blink 500ms linear infinite alternate;
+		}
+}
+
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.name{
+	font-size:24px;
+	line-height:50px;
+	color:#cacaca;
+	
+}
+p.typewriter{
+	line-height:30px
+}
+
+.text-box{
+	margin-top:100px;
+}
